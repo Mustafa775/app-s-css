@@ -19558,10 +19558,10 @@ select {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }.cart-options sallaProductOptions .s-product-options-option .s-product-options-multiple-options-wrapper {
   display: block !important;
-}salla-quantity-input[max="1"] input {
+}#sallaQuantityInput[max="1"] input {
   pointer-events: none;
   opacity: 0.5;
-}salla-quantity-input[max="1"] .s-quantity-input-button {
+}#sallaQuantityInput[max="1"] .s-quantity-input-button {
   cursor: not-allowed;
 }#app.small-image-option .s-product-options-thumbnails-wrapper{grid-template-columns:repeat(6, minmax(0, 1fr))}#app.small-image-option .s-product-options-thumbnails-wrapper label{height:3rem}#app.small-image-option .s-product-options-thumbnails-wrapper label::before {
   --tw-bg-opacity: 1;
@@ -19784,7 +19784,7 @@ select {
   margin-bottom: 0px;
 }.has-apple-pay .addtocart-bar {
   flex-direction: column;
-}.has-apple-pay .addtocart-bar salla-quantity-input,.has-apple-pay .addtocart-bar .s-quantity-input-container {
+}.has-apple-pay .addtocart-bar #sallaQuantityInput,.has-apple-pay .addtocart-bar .s-quantity-input-container {
   width: 100%;
 }.has-apple-pay .addtocart-bar #sallaAddProductButton {
   gap: 0.625rem;
